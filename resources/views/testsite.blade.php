@@ -8,20 +8,17 @@
         <div class="col-4 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
         <div class="col-4 bg-warning">
             <div class="mb-3">
-                <label for="" class="form-label">Email</label>
-                <input
-                    type="email"
-                    class="form-control"
-                    name=""
-                    id=""
-                    aria-describedby="emailHelpId"
-                    placeholder="abc@mail.com"
-                />
-                <small id="emailHelpId" class="form-text text-muted"
-                    >Help text</small
-                >
+                <label for="filterWord" class="form-label">Filter by Contains Word:</label>
+                <input type="text" class="form-control" id="filterWord">
             </div>
-            
+            <div class="mb-3">
+                <label for="filterTimestamp" class="form-label">Filter by Timestamp:</label>
+                <input type="text" class="form-control" id="filterTimestamp">
+            </div>
+            <div class="mb-3">
+                <label for="filterTags" class="form-label">Filter by Tags:</label>
+                <input type="text" class="form-control" id="filterTags">
+            </div>
         </div>
         <div class="col-4 bg-danger">
             <button
